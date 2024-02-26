@@ -23,7 +23,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/a6336d5ad06a7ca7702d9.jpg https://telegra.ph/file/54654ecb79f7b34f8c19c.jpg https://telegra.ph/file/4a7747577bdffebdb936f.jpg https://telegra.ph/file/2341d9993910a02ced0d3.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/4a7747577bdffebdb936f.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownloadmoviestamilhd/70")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/c/2022399109/27044")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2341d9993910a02ced0d3.jpg")
 
 # Admins, Channels & Users
