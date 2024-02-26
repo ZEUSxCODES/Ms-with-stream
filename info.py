@@ -21,10 +21,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5634679884:AAH6KjE4JbS5rD3ljyZSJZJx6I-rbz5
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/129b06eed603d6ebf0f26.jpg https://telegra.ph/file/09114fc07bbb7a8b26b21.jpg https://telegra.ph/file/09e9714263980f0a818ba.jpg https://telegra.ph/file/90224d3664a06e03f302a.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d4c04d7f2b7e7a6e9db3a.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/a6336d5ad06a7ca7702d9.jpg https://telegra.ph/file/54654ecb79f7b34f8c19c.jpg https://telegra.ph/file/4a7747577bdffebdb936f.jpg https://telegra.ph/file/2341d9993910a02ced0d3.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/4a7747577bdffebdb936f.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownloadmoviestamilhd/70")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/a1b3c69bc50b2141bf7e4.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2341d9993910a02ced0d3.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5854751717').split()]
